@@ -17,14 +17,6 @@ namespace teste
         }
 
         public string ValidarJogada()
-        {
-            var x = InjectJogada.InjectConfiguration().Where(x => x.BaseRulesWin.Casa == jogada1).FirstOrDefault().ValidarJogada(jogada2);
-
-            foreach (var jg in x)
-            {
-
-            }
-            return "aa";
-        }
+            => InjectJogada.InjectConfiguration().Where(x => x.BaseRulesWin.Casa == jogada1).FirstOrDefault().ValidarJogada(jogada2);
     }
 }
