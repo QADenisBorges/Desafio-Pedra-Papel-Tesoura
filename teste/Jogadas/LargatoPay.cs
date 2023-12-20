@@ -2,7 +2,7 @@
 
 namespace teste.TipoJogada
 {
-    public class LargatoJogada : BaseJogada
+    public class LargatoJogada : BasePlay
     {
         public LargatoJogada() : base(new LargatoRulesWin()){}
     }

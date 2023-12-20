@@ -9,7 +9,8 @@ namespace teste
         {
             var jogada1 = JogadaEnum.Largato;
             var jogada2 = JogadaEnum.Largato;
-            var x = new Jogar(jogada1, jogada2).ValidarJogada();
+            var x = new Play(jogada1, jogada2).ValidarJogada();
+            Console.WriteLine(x);
         }
     }
 }

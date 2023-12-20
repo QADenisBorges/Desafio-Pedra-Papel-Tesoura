@@ -5,8 +5,8 @@ using teste.RulesWin;
 
 namespace teste.TipoJogada
 {
-    public class SpockJogada : BaseJogada
+    public class SpockPlay : BasePlay
     {
-        public SpockJogada() : base(new SpockRulesWin()){}
+        public SpockPlay() : base(new SpockRulesWin()){}
     }
 }

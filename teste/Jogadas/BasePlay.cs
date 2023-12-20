@@ -5,11 +5,11 @@ using teste.RulesWin;
 
 namespace teste.TipoJogada
 {
-    public abstract class BaseJogada
+    public abstract class BasePlay
     {
         public BaseRulesWin BaseRulesWin;
 
-        protected BaseJogada(BaseRulesWin baseRulesWin)
+        protected BasePlay(BaseRulesWin baseRulesWin)
         {
             BaseRulesWin = baseRulesWin;
         }
